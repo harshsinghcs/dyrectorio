@@ -1,6 +1,6 @@
 # Contributing
 
-We'd love you to contribute to [dyrector.io](https://dyrector.io/) platform. We want contribution to dyrector.io to be fun, enjoyable, and educational for anyone and everyone. All contributions are welcome, including issues, new docs as well as updates and tweaks, blog posts, workshops, and more.
+We'd love you to contribute to [dyrector.io](https://dyrector.io/) platform. We want contribution to dyrector.io to be fun, enjoyable, and educational for anyone and everyone. All contributions are welcome, including issues, and new docs as well as updates and tweaks, blog posts, workshops, and more.
 
 ## Code of Conduct
 
@@ -71,7 +71,7 @@ End-to-end tests:
 
 6. On Mac / Windows you may have to edit your OS's hosts file to be sure the `host.docker.internal` domain resolves to docker's bridge network.
 
--   Alternatively you can use your machine's LAN IP.
+-   Alternatively, you can use your machine's LAN IP.
 
 7. Deploy the database with `npm run prisma:migrate`
 8. Start the backend in production mode with `npm run start:prod`
@@ -103,16 +103,16 @@ make release
 
 We have two persistent branches: main, develop.
 PRs are going into develop.
-The develop branch is always fast-forward mergable to main.
+The develop branch is always fast-forward mergable to the main.
 PR titles must follow the conventional commit guidelines.
 
-Release: a release commit is made to develop, package versions are bumped, develop is fast-forward merged into main.
-Hotfix: in rare occassions, a hotfix/\*\* branch is created from main and the PR targets the main branch,
+Release: a release commit is made to develop, package versions are bumped, develop is fast-forward merged into the main.
+Hotfix: in rare occasions, a hotfix/\*\* branch is created from main and the PR targets the main branch,
 develop must be rebased to main -- using rebase-onto.
 
 ## Submit a Pull Request
 
-Branch naming convention is as following
+The branch naming convention is as following
 
 `TYPE/DESCRIPTION-DESCRIPTION`
 
@@ -139,7 +139,7 @@ dyrector.io is following Conventional Commits, the commit messages should be str
 [optional footer(s)]
 ```
 
-The commit contains the following structural elements, to communicate intent to the consumers of dyrector.io library:
+The commit contains the following structural elements, to communicate intent to the consumers of the dyrector.io library:
 
 1. **fix:** a commit of the _type_ `fix` patches a bug in your codebase (this correlates with [`PATCH`](http://semver.org/#summary) in Semantic Versioning).
 1. **feat:** a commit of the _type_ `feat` introduces a new feature to the codebase (this correlates with [`MINOR`](http://semver.org/#summary) in Semantic Versioning).
@@ -168,11 +168,11 @@ Pull requests are great, but there are many other areas where you can help dyrec
 
 ### Sending Feedbacks & Reporting Bugs
 
-Sending feedback is a great way for us to understand your different use cases of dyrector.io better. If you had any issues, bugs, or want to share about your experience, feel free to do so on our GitHub issues page or at our [Discord server](https://discord.gg/hMyT9cbYFD).
+Sending feedback is a great way for us to understand your different use cases of dyrector.io better. If you have any issues, bugs, or want to share your experience, feel free to do so on our GitHub issues page or on our [Discord server](https://discord.gg/hMyT9cbYFD).
 
 ### Submitting New Ideas
 
-If you think dyrector.io could use a new feature, please open an issue on our GitHub repository, stating as much information as you can think of your new idea and it's implications. We'd also use this issue to gather more information, get more feedback from the community, and have a proper discussion about the new feature.
+If you think dyrector.io could use a new feature, please open an issue on our GitHub repository, stating as much information as you can think of your new idea and its implications. We'd also use this issue to gather more information, get more feedback from the community, and have a proper discussion about the new feature.
 
 ### Improving Documentation
 
@@ -180,4 +180,4 @@ Submitting documentation updates, enhancements, designs, or bug fixes. Spelling 
 
 ### Commit signatures
 
-Submitting pull requests require all commits to be signed with a GPG signature. Refer to the [GitHub documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification) to setup GPG signing.
+Submitting pull requests requires all commits to be signed with a GPG signature. Refer to the [GitHub documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification) to set up GPG signing.
